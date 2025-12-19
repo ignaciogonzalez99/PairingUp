@@ -1,0 +1,31 @@
+:root {
+  --background: #181931;
+  --secondary: #44174E;
+  --tertiary: #682249;
+  --accent-rose: #A54054;
+  --accent-gold: #EE9C5D;
+  --accent-light: #E3C4BE;
+  --text-main: #FFFFFF;
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(135deg, var(--background) 0%, var(--secondary) 100%);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
